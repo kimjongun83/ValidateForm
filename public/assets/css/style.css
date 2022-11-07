@@ -1,0 +1,84 @@
+/*
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+
+.border-md {
+    border-width: 2px;
+}
+
+.btn-facebook {
+    background: #405D9D;
+    border: none;
+}
+
+.btn-facebook:hover, .btn-facebook:focus {
+    background: #314879;
+}
+
+.btn-twitter {
+    background: #42AEEC;
+    border: none;
+}
+
+.btn-twitter:hover, .btn-twitter:focus {
+    background: #1799e4;
+}
+
+
+
+/*
+*
+* ==========================================
+* FOR DEMO PURPOSES
+* ==========================================
+*
+*/
+
+body {
+    min-height: 100vh;
+}
+
+.form-control:not(select) {
+    padding: 1.5rem 0.5rem;
+}
+
+select.form-control {
+    height: 52px;
+    padding-left: 0.5rem;
+}
+
+.form-control::placeholder {
+    color: #ccc;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+.form-control:focus {
+    box-shadow: none;
+}
+
+
+.input-group.success input  {
+    border-color: #09c372;
+}
+
+.input-group.error input , .input-group.success .input-group-prepend{
+    border-color: #ff3860;
+}
+
+.input-group .error {
+    color: #ff3860;
+    font-size: 9px;
+    height: 13px;
+    margin-top: 10px;
+}
+.toggle {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 45px;
+    cursor: pointer;
+  }

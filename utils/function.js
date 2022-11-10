@@ -22,8 +22,13 @@ export const handleErrors = (response) => {
   if ([200, 201].includes(response.status)) {
     return response
   }
-  if (response.status === 401) {
-    location.href = '/login'
+  if (response.status === 401 ) {
+    swal("Failed", "", "error");
+    // location.href = '/login'
+  }
+  if (response.status === 404 ) {
+    swal("Register Failed", "", "error");
+    // location.href = '/login'
   }
 
   throw response

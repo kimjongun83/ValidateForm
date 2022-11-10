@@ -136,7 +136,7 @@ const login = async (values) => {
       });
         if (willRedirect) {
           setTimeout(function() {
-            window.location.href = "../public/index.html";
+            window.location.href = "zindex.html";
           }, 3000);
         }
       });

@@ -32,5 +32,5 @@ if(getToken){
     getListUser( { page: BASE1_URL },getToken )
 }
 else{
-    window.location.href = '../public/login.html';
+    window.location.href = '../slogin.html';
 }

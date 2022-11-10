@@ -1,4 +1,5 @@
 import ApiHelper from "../services/services.js";
+import dat from 'login'
 const name = document.querySelector(".name");
 const email = document.querySelector(".email");
 const password = document.querySelector(".password");
@@ -196,7 +197,7 @@ const register = async (values) => {
         })
         if (willRedirect) {
           setTimeout(function () {
-            window.location.href = "../public/login.html";
+            window.location.href = "slogin.html";
           }, 2000);
         }
       });
